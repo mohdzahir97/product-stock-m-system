@@ -32,6 +32,19 @@ const NavBar = () => {
                   AllStock
                </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/admin/login">
+                  AdminLogin
+               </Link>
+              </li>
+
+              <li className="nav-item" >
+                <Link className="nav-link disabled" to="/userlogin">
+                  UserLogin
+               </Link>
+              </li>
+
             </ul>
           </div>
         </div>

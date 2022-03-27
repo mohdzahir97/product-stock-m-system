@@ -7,6 +7,7 @@ import DeleteProductData from "./components/DeleteProductData";
 import UpdateProductData from "./components/UpdateProductData";
 import NavBar from "./components/NavBar";
 import ViewStock from "./components/ViewStock";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         ></Route>
 
         <Route path="/viewproduct/:id" element={<ViewStock />}></Route>
+
+        <Route path="/admin/login" element={<Login/>}></Route>
       </Routes>
     </div>
   );
